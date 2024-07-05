@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+  font-family: "Sunflower", sans-serif;
+}
+
+/* Event Details */
+.event-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-img {
+  width: 200px;
+  height: 200px;
+}
+
+.event-info {
+  width: calc(100% - 220px);
+  padding: 20px;
+}
+
+.event-title {
+  font-size: 40px;
+  color: #DE5E27;
+}
+
+.event-description {
+  font-size: 25px;
+  color: black;
+}
+
+.event-time,
+.event-venue {
+  margin-top: 20px;
+}
+
+.event-time h3,
+.event-venue h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #DE5E27;
+}
+
+.event-time p,
+.event-venue p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #DE5E27;
+}
+
+/* About Event */
+.about-event {
+  margin-top: 50px;
+}
+
+.about-event h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #DE5E27;
+}
+
+.about-event p {
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+
+/* Ticket Booking */
+.ticket-booking {
+  margin-top: 50px;
+}
+
+.ticket-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-details button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.total-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-sub-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #DE5E27;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Image Container */
+.image-container {
+  text-align: center; /* Center the image */
+  margin-top: 50px; /* Adjust as needed */
+}
+
+/* Content */
+.content {
+  margin-top: 20px; /* Add space between image and content */
+}

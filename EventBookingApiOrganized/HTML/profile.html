@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script defer src="../JS/profile.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>Welcome to Your Profile</h1>
+            <div class="profile-picture-container" id="profilePictureContainer">
+                <img id="profilePicture" src="" alt="Profile Picture">
+                <button id="logoutButton" style="display: none;">Logout</button>
+            </div>
+            <button id="ticketBookingButton1" class="nav-button">Rahman Tickets</button>
+            <button id="ticketBookingButton2" class="nav-button">Anirudh Tickets</button>
+            <button id="ticketBookingButton3" class="nav-button">Vijay Antony Tickets</button>
+            <button id="ticketBookingButton4" class="nav-button">Free Event Tickets</button>
+            <!-- Add Bookings button here -->
+            <button id="bookingsButton" class="nav-button">Bookings</button>
+
+            <div class="dropdown">
+                <button id="apiButton" class="nav-button">API</button>
+                <div id="dropdownContent" class="dropdown-content">
+                    <a href="#" id="eventPage1">Anirudh Concert</a>
+                    <a href="#" id="eventPage2">Vijay Antony Concert</a>
+                    <a href="#" id="eventPage3">Rahman Concert</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="content">
+        <h2>Your Profile</h2>
+        <!-- Additional profile content goes here -->
+        <!-- <div class="profile-picture-container">
+            <img src="path/to/profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+        </div> -->
+    </div>
+</body>
+</html>

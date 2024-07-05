@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/payment-details.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Payment Details</h2>
+            </div>
+            <div class="card-body" id="paymentDetails">
+                <p><strong>Order ID:</strong> <span id="orderId"></span></p>
+                <p><strong>Payment ID:</strong> <span id="paymentId"></span></p>
+                <p><strong>Amount:</strong> ₹<span id="amount"></span></p>
+                <p><strong>Currency:</strong> <span id="currency"></span></p>
+                <p><strong>Status:</strong> <span id="status"></span></p>
+                <p><strong>Concert Name:</strong> <span id="concertName"></span></p>
+                <button id="downloadReceipt" class="btn btn-primary mt-3">Download Receipt</button>
+                <button id="downloadAsJPG" class="btn btn-secondary mt-3">Download as JPG</button>
+                <button id="profileButton" class="btn btn-info mt-3">Go to Profile</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="../JS/payment-details.js"></script>
+</body>
+</html>

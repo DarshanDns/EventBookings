@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Event Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/index.css" type="text/css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Image Container -->
+    <div class="image-container">
+        <img src="../Images/free_event.png" alt="Free Event Image">
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="event-details">
+            <div class="event-info">
+                <h2 class="event-title">Free Event</h2>
+                <p class="event-description">Join us for a free event filled with amazing activities and fun. Don't miss out on this wonderful opportunity.</p>
+                <div class="event-time">
+                    <h3>Time</h3>
+                    <p>Saturday, 1st July 2024, IST 5 PM</p>
+                </div>
+                <div class="event-venue">
+                    <h3>Venue</h3>
+                    <p>Community Hall, Kochi, Kerala</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Event -->
+        <div class="about-event">
+            <h2>About this Event</h2>
+            <p>This event is free and open to everyone. Come and enjoy a day filled with joy and laughter.</p>
+        </div>
+
+        <!-- Ticket Booking -->
+        <div class="ticket-booking">
+            <div class="ticket-details">
+                <h2>Free Event</h2>
+                <div class="quantity-controls">
+                    <button id="subtractTicket">-</button>
+                    <span id="ticketCount">0</span>
+                    <button id="addTicket">+</button>
+                </div>
+                <div class="total-price">
+                    Total: <span id="ticketTotalAmount">₹0</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Grab Your Tickets</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Free Event Tickets</h6>
+                    <p class="card-text">Location: Kochi, Kerala</p>
+                    <p class="card-text">Saturday, 1st July 2024</p>
+                    <hr>
+                    <div id="charges">
+                        <p class="card-text">Total amount:</p>
+                        <p id="charges1" class="card-text">₹0</p>
+                    </div>
+                    <div class="card-sub-btn" id="bookBtn">Book Now</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../JS/free_event.js"></script>
+
+</body>
+</html>

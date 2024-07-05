@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/index.css" type="text/css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="../JS/dynamic.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="image-container">
+        <img id="eventImage" alt="Event Image">
+    </div>
+    <div class="content">
+        <div class="event-details">
+            <div class="event-info">
+                <h2 id="eventTitle" class="event-title"></h2>
+                <p id="eventDescription" class="event-description"></p>
+                <div class="event-time">
+                    <h3>Time</h3>
+                    <p id="eventTime"></p>
+                </div>
+                <div class="event-venue">
+                    <h3>Venue</h3>
+                    <p id="eventVenue"></p>
+                </div>
+            </div>
+        </div>
+        <div class="about-event">
+            <h2>About this Event</h2>
+            <p id="aboutEvent"></p>
+        </div>
+        <div class="ticket-booking">
+            <div class="ticket-details">
+                <h2 id="bookingTitle"></h2>
+                <div class="quantity-controls">
+                    <button id="subtractTicket">-</button>
+                    <span id="ticketCount">0</span>
+                    <button id="addTicket">+</button>
+                </div>
+                <div class="total-price">
+                    Total: <span id="ticketTotalAmount">₹0</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Grab Your Tickets</h5>
+                    <h6 id="cardSubtitle" class="card-subtitle mb-2 text-muted"></h6>
+                    <p id="cardLocation" class="card-text"></p>
+                    <p id="cardDate" class="card-text"></p>
+                    <hr>
+                    <div id="charges">
+                        <p class="card-text">Total amount:</p>
+                        <p id="charges1" class="card-text">₹0</p>
+                    </div>
+                    <div class="card-sub-btn" id="payBtn">Book Now</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

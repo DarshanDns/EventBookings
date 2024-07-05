@@ -1,0 +1,38 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script defer src="../JS/login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <h1>Login</h1>
+            <div class="input-control">
+                <label for="loginEmail">Email</label>
+                <input id="loginEmail" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="loginPassword">Password</label>
+                <input id="loginPassword" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="google-login">
+            <a href="/auth/google" class="google-btn">
+                <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" alt="Sign in with Google">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
